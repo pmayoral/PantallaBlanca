@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Pantalla blanca principal -->
+    <View
+        android:id="@+id/whiteScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Panel de controles -->
+    <LinearLayout
+        android:id="@+id/controlPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#DD000000"
+        android:elevation="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pantalla Blanca"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="15dp" />
+
+        <Button
+            android:id="@+id/btnToggleBrightness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alternar Brillo"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnHideControls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ocultar Controles"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toca la pantalla para mostrar/ocultar"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

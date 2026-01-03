@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pantalla Blanca</string>
+    <string name="exit">Salir</string>
+    <string name="toggle_brightness">Alternar Brillo</string>
+    <string name="hide_controls">Ocultar Controles</string>
+</resources>
